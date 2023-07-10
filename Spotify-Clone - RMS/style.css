@@ -22,7 +22,7 @@ body{
     margin-top:48px;
     display:flex;
     width:1080px;
-    height:560px;
+    height:640px;
 
 }
 .song-container{
@@ -77,4 +77,81 @@ body{
     width:12px;
     height:12px;
     margin-right:10px;
+}
+.song-pic{
+    position: relative;
+}
+.song-pic img{
+    width:120px;
+    height:120px;
+    
+    
+}
+.song-pic svg{
+    position: absolute;
+    display:block;
+    top:78%;
+    left:60%;
+}
+.title-artist{
+    color:white;
+}
+
+.title-artist h4{
+    font-size:12px;
+}
+.title-artist p{
+    font-size:8px;
+    color:#d9d9d9;
+}
+.song-grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-top:24px;
+    row-gap:16px;
+}
+.mostplayed-content{
+    padding:18px 20px;
+}
+
+.mostplayed-content h2{
+    color:white;
+}
+.playlist-content{
+    padding:18px 20px;
+}
+.playlist-content h2{
+    color:white;
+    margin-bottom:24px;
+}
+.mostplayed-song{
+    color:white;
+    display:flex;
+    margin-top:16px;
+   
+
+    
+}
+.mostplayed-song img{
+    width:42px;
+    height:42px;
+    margin-right:10px;
+}
+.mostplayed-song h3{
+    margin-right:14px;
+    margin-top:6px;
+}
+.mostplayed-song svg{
+    
+    margin-top:8px;
+}
+.title{
+    margin-right:56px;
+}
+.title h4{
+    font-size:12px
+}
+
+.title p{
+    font-size:10px
 }
