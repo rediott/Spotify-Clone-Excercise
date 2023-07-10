@@ -128,6 +128,7 @@ body{
     color:white;
     display:flex;
     margin-top:16px;
+    position:relative;
    
 
     
@@ -144,10 +145,40 @@ body{
 .mostplayed-song svg{
     
     margin-top:8px;
+    position:absolute;
+    right:0;
 }
-.title{
-    margin-right:56px;
+
+.title h4{
+    font-size:12px
 }
+
+.title p{
+    font-size:10px
+}
+
+.playlist-item{
+    color:white;
+    display:flex;
+    margin-top:16px;
+    position:relative;
+   
+
+    
+}
+.playlist-item img{
+    width:42px;
+    height:42px;
+    margin-right:10px;
+}
+
+.playlist-item svg{
+    
+    margin-top:8px;
+    position:absolute;
+    right:0;
+}
+
 .title h4{
     font-size:12px
 }
